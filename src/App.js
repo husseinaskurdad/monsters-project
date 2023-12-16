@@ -44,7 +44,7 @@ let App = () => {
     <h1 className='app-title'>NEW Monsters</h1>
     <SearchBox
       onChangeHandler = {onSearchChange}
-      placeholder = 'search-monsters'
+      placeholder = 'search the damn monsters'
       className = 'monster-search-box'
        />
        <CardList monsters = {filteredMonsters} />
